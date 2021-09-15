@@ -5,8 +5,6 @@ import {fetchPublishableKey} from './src/util/helpers';
 
 export default function App() {
   const [publishableKey, setPublishableKey] = useState();
-  // const publishableKey =
-  //   'pk_test_51JY5HsJk5tf5jWqw176bzLAlYVFCCTDoO0HQduVWwN2oSVHIJeke0eQYoEjC4MUBiOGrXSs0tzRVwTkgce37wm6W00R1cFBGiw';
 
   useEffect(() => {
     const init = async () => {
