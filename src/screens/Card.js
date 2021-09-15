@@ -35,7 +35,7 @@ export default function Card() {
     });
 
     if (error) {
-      alert(`Error: ${error}`);
+      alert(`Error: ${error.code} ${error.message}`);
     } else if (paymentIntent) {
       alert(`Payment successful: ${paymentIntent.id}`);
     }
